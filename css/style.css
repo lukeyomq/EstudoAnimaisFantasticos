@@ -12,6 +12,11 @@ img {
     max-width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 ul {
     list-style: none;
 }
@@ -138,6 +143,7 @@ body {
     font-size: 1rem;
     color: #e54;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .faq-lista dt::before {
@@ -166,6 +172,10 @@ body {
 .dados li {
     margin-bottom: 1rem;
     font-family: Helvetica, Arial;   
+}
+
+.dados li a:hover {
+color: #555;    
 }
 
 .dados li::before {
